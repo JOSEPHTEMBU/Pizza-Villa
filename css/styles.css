@@ -1,0 +1,32 @@
+nav > ul {
+	text-align: right;
+}
+
+nav > ul > li {
+	list-style: none;
+	display: inline-block;
+}
+
+nav ul li a {
+	width: 20px;
+	color: white;
+	padding: 10px;
+	font-size: 1.5em;
+}
+
+nav .btn-primary {
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+}
+
+nav .btn-primary:hover {
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: #fc766a;
+}
+.btn-primary {
+	background-color: darkslategray;
+	border: none;
+}
