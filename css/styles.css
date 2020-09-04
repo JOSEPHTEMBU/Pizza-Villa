@@ -1,3 +1,10 @@
+#carouselExampleCaptions{
+    margin: 30px 30px 30px 30px;
+}
+.nav-bar{
+    margin: 50px 50px 50px 50px;
+}
+
 nav > ul {
 	text-align: right;
 }
@@ -29,4 +36,7 @@ nav .btn-primary:hover {
 .btn-primary {
 	background-color: darkslategray;
 	border: none;
+}
+h1, h2, h3{
+    text-align: center;
 }
