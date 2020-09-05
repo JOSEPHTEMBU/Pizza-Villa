@@ -178,7 +178,7 @@
         </div>
     </div>
     <div class="order">
-        <h3>Make your Order</h3><br>
+        <h3>Make your Order Here</h3><br>
         <div class="row">
             <div class="col-md-3">
                 <form action="" id="form2" action="index.html"></form>
@@ -193,7 +193,41 @@
                     <option value="classic">classic</option>
                     <option value="taco pizza"></option>
                 </select>
+                Quantity:<br>
+                <input type="number" class="form-control" name="quantity" id="quantity" value="" min="1">
             </div>
+            <div class="col-md-3">
+                Size:<br>
+                <select id="size">
+                    <option value="1">Small --$.10</option>
+                    <option value="2">Medium --$.20</option>
+                    <option value="3">Large" --$.50</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                Toppings:<br>
+                <select id="toppings">
+                    <option>
+                    <option id="puff" value="puff">puff</option>.<br>
+                    <option id="Ham and pineaple" value="Ham and pineaple">Ham and pineaple</option><br>
+                    <option id="Taco pizza" value="Taco pizza">Taco pizza</option><br>
+                    <option id="classic" value="classic">Classic</option><br>
+                    </option>
+                </select>
+                <br>
+            </div>
+            <div class="col-md-3">
+                Crusts:<br>
+                <select id="crusts">
+
+                    <option value="Thin crust">Thin Crust--$.20</option>
+                    <option value="Thick Crust">Thick Crust--$.30</option>
+                    <option value="Deep Crust">Deep Crust--$.40</option>
+                    <option value="Cheese Filled Crust">Cheese  Crust--$.50</option>
+                    <option value="Stuffed Crust">Stuffed Crust--$.60</option>
+                </select>
+            </div>
+        </div>
             <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
                 integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
                 crossorigin="anonymous"></script>
@@ -201,7 +235,7 @@
                 integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
                 crossorigin="anonymous"></script>
         </div>
-    </div>
+    
 </body>
 
 </html>
