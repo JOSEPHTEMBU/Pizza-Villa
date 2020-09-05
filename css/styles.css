@@ -1,3 +1,124 @@
+
+
+
+
+
+body {
+	background-color: #ffdde2ff;
+}
+
+h1 {
+	color: blue;
+	text-align: center;
+}
+
+
+.founders {
+	width: 65%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.founders-card {
+	position: relative;
+	border-radius: 5px;
+	padding: 10px;
+	height: 250px;
+	width: 210px;
+	background-color: #008c76ff;
+}
+
+.founders-img {
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.founders-img img {
+	margin: 0 auto;
+	height: 150px;
+	width: 200px;
+	border-radius: 5px;
+}
+
+.more,
+.less {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.more button {
+	height: 32px;
+	width: 67px;
+	border-radius: 5px;
+	border: none;
+	background-color: #ffdde2ff;
+	color: blue;
+	font-size: 18px;
+	/* display: none;  */
+}
+
+.less button {
+	height: 32px;
+	width: 67px;
+	border-radius: 5px;
+	border: none;
+	background-color: #ffdde2ff;
+	color: blue;
+	font-size: 18px;
+}
+
+#less1,
+#less2,
+#less3,
+#less4 {
+	display: none;
+}
+
+.founders button:hover {
+	background-color: brown;
+	color: white;
+}
+
+.name {
+	text-align: center;
+	font-size: 22px;
+	color: white;
+}
+
+#founder-details1,
+#founder-details2,
+#founder-details3,
+#founder-details4 {
+	width: 80%;
+	margin: 0 auto;
+	text-align: justify;
+	display: none;
+	color: white;
+}
+
+.show {
+	display: block;
+}
+
+.increase {
+	height: 400px;
+}
+
+#history {
+	border-radius: 5px;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	background-color: #008c76ff;
+	color: white;
+	font-size: 18px;
+}
+
+
 button {
 	margin: 50px 50px 50px 50px;
 }
