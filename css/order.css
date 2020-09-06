@@ -1,0 +1,65 @@
+body {
+	background-color: #27b376;
+}
+
+
+.total-amount,
+.delivery-cost {
+	font-weight: bold;
+	font-size: 1.6em;
+}
+
+.hidden {
+	display: none;
+}
+
+.checkout-options,
+.location {
+	z-index: 3;
+	border-radius: 15px;
+	padding: 20px;
+	width: 40%;
+	height: 60vh;
+	background: aqua;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.nav-bar {
+	margin: 50px 50px 50px 50px;
+}
+
+nav > ul {
+	text-align: right;
+}
+
+nav > ul > li {
+	list-style: none;
+	display: inline-block;
+}
+
+nav ul li a {
+	width: 20px;
+	color: white;
+	padding: 10px;
+	font-size: 1.5em;
+}
+
+nav .btn-primary {
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+}
+
+nav .btn-primary:hover {
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: #fc766a;
+}
+.btn-primary {
+	background-color: darkslategray;
+	border: none;
+}
