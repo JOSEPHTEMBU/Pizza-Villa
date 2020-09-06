@@ -60,7 +60,7 @@ Step 4: To run the website, you'll have to open the index.thml file with a brows
 | HTML | Creating the web pages| 
 | CSS   | Styling the web pages     
 | JAVASCRIPT   |Making the project interactive
-| JQuery | ExecuteS  functionS when the document is fully loaded | 
+| JQuery | ExecuteS  functions when the document is fully loaded | 
 | Bootstrap   | Designs websites faster and easier.
 
 
