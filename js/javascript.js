@@ -20,7 +20,6 @@ Total.prototype.finalTotal = function () {
 	return this.price * this.quantity + this.delivery;
 };
 
-
 $(document).ready(function () {
 	$("#form2").submit(function (event) {
 		event.preventDefault();
