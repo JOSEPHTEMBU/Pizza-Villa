@@ -16,6 +16,11 @@
 
  # Figma link
 
+
+
+
+ 
+ 
  # Features Of Pizza Villa Website
 
  As a user of the website you will be able to:
@@ -55,6 +60,16 @@ Step 4: To run the website, you'll have to open the index.thml file with a brows
 | HTML | Creating the web pages| 
 | CSS   | Styling the web pages     
 | JAVASCRIPT   |Making the project interactive
-| Jquery | | 
-| Bootstrap   | 
+| JQuery | ExecuteS  functionS when the document is fully loaded | 
+| Bootstrap   | Designs websites faster and easier.
+
+
+## Contact Information
+
+- email address
+  josephmulama30@gmail.com
+
+## Licence
+
+Copyright (c) 2020 JOSEPHTEMBU
 
